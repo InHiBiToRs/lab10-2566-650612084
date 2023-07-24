@@ -55,7 +55,6 @@ export default function RandomUserPage() {
           type="number"
           onChange={(e) => setGenAmount(e.target.value)}
           value={genAmount}
-          lo
         />
         <button className="btn btn-dark" onClick={generateBtnOnClick}>
           Generate
